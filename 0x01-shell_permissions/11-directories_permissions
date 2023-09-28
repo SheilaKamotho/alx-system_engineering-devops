@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -Rugo+X 
+find . -type d -exec chmod o+x {} \;
