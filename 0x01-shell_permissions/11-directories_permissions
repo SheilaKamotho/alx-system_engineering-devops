@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod o+x {} \;
+chmod +x add_execute_permissions.sh
